@@ -78,7 +78,7 @@ const form = reactive({
 });
 
 const isSubmitted = ref(false);
-function submit() {
+const submit = () => {
   isSubmitted.value = true;
   console.log("Form Submitted:", JSON.stringify(form, null, 2));
 }
