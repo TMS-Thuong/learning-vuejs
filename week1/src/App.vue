@@ -7,8 +7,4 @@
 
 <style lang="scss">
 @use "./assets/_variables.scss" as *;
-
-h1 {
-  color: $primary-color;
-}
 </style>

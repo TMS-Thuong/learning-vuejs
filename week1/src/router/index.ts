@@ -4,6 +4,7 @@ import HomeView from '@/views/HomeView.vue'
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
   { path: '/exe3.1', name: 'Status', component: () => import('@/views/StatusView.vue') },
+  { path: '/exe3.2', name: 'Age', component: () => import('@/views/AgeView.vue') },
 ]
 
 const router = createRouter({
