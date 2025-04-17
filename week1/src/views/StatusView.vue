@@ -6,5 +6,5 @@
 </template>
 
 <script setup>
-import StatusMessage from '@/components/molecules/StatusMessage.vue'
+import StatusMessage from '@/components/molecules/StatusMessageComponent.vue'
 </script>

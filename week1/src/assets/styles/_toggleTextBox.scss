@@ -1,0 +1,33 @@
+.toggle-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+
+  input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+  }
+  &__label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #0d0e0d;
+  }
+
+  &__content {
+    margin-top: 12px;
+    padding: 10px;
+    border: 1px solid #013117;
+    background-color: #f9f9f9;
+    font-size: 16px;
+  }
+}

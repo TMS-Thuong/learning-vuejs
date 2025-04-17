@@ -6,5 +6,5 @@
 </template>
 
 <script setup>
-  import AgeView from '../components/organisms/AgeMessage.vue'
+  import AgeView from '../components/organisms/AgeMessageComponent.vue'
 </script>
