@@ -1,0 +1,32 @@
+.task-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &__field {
+    width: 320px;
+    padding: 5px;
+    font-size: 16px;
+    background: #25913c;
+    border: 1px solid #0a0a0a;
+    border-radius: 4px;
+    &:hower{
+      
+    }
+  }
+
+  &__add {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #065c2a;
+    border: none;
+    border-radius: 4px;
+    &:hover {
+      background-color: #20884c;
+    }
+  }
+}

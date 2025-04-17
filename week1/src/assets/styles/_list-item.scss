@@ -1,0 +1,11 @@
+.number-item {
+  font-size: 18px;
+  color: #333;
+  padding: 0.5em 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}

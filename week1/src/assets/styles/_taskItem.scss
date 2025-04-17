@@ -1,0 +1,28 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #080808;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__name {
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  &__delete {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #065c2a;
+    border: none;
+    border-radius: 4px;
+    &:hover {
+      background-color: #20884c;
+    }
+  }
+}

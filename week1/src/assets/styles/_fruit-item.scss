@@ -1,0 +1,10 @@
+.fruit-item {
+  font-size: 18px;
+  color: #333;
+  padding: 8px;
+  border-bottom: 1px solid #1d3825;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
