@@ -51,9 +51,10 @@
       </div>
 
       <button type="button" class="register-form__submit" @click="submit">Đăng ký</button>
-      <h3 v-if="isSubmitted">Kết quả:</h3>
-      <pre v-if="isSubmitted">{{ form }}</pre>
-
+      <template v-if="isSubmitted">
+        <h3>Kết quả:</h3>
+        <pre>{{ form }}</pre>
+      </template>
     </div>
   </div>
 </template>
