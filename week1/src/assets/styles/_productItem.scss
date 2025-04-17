@@ -1,0 +1,14 @@
+.product-item {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0.5em;
+  border-bottom: 1px solid #201d1d;
+  text-align: left;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+.product-item:hover {
+  background-color: #3a8a4e;
+}
