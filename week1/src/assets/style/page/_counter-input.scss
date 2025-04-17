@@ -1,0 +1,51 @@
+@use '../../_variables.scss' as *;
+
+.counter-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  background-color: $bgBody;
+
+  &__counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &-button {
+      padding: 10px 20px;
+      font-size: $font-size;
+      cursor: pointer;
+      border: none;
+      border-radius: $border-radius;
+      background-color: $primary-color;
+      color: white;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: $primary-color-hover;
+      }
+    }
+  }
+
+  &__input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-input {
+      padding: 10px;
+      font-size: $font-size;
+      border: 1px solid $bgColor;
+      border-radius: $border-radius;
+      width: 300px;
+      margin-bottom: 10px;
+    }
+
+    &-text {
+      font-size: $font-size;
+      color: $bgColor;
+    }
+  }
+}
