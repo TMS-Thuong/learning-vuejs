@@ -1,0 +1,22 @@
+.status-message {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+
+  &__text {
+    font-size: 18px;
+    padding: 10px;
+
+    &--loading {
+      color: blue;
+    }
+
+    &--success {
+      color: green;
+    }
+
+    &--error {
+      color: red;
+    }
+  }
+}
