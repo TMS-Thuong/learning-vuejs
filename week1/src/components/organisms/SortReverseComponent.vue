@@ -10,5 +10,5 @@ const emit = defineEmits(['sort', 'reverse']);
 </script>
 
 <style lang="scss" scoped>
-@use "../../assets/styles/_sortReverse.scss" as *;
+@use "../../assets/styles/_sort-reverse.scss" as *;
 </style>

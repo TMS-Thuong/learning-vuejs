@@ -6,7 +6,9 @@ const routes = [
   { path: '/exe4.1', name: 'Fruit', component: () => import('@/views/FruitListView.vue') },
   { path: '/exe4.2', name: 'Product', component: () => import('@/views/ProductView.vue') },
   { path: '/exe4.3', name: 'Merchandise', component: () => import('@/views/MerchandiseView.vue') },
-  { path: '/exe4.4', name: 'ListSort', component: () => import('@/views/ListSortView.vue') }
+  { path: '/exe4.4', name: 'ListSort', component: () => import('@/views/ListSortView.vue') },
+  { path: '/exe4.5', name: 'Task', component: () => import('@/views/TaskView.vue') },
+
 ]
 
 const router = createRouter({

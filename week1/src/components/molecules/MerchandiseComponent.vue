@@ -16,5 +16,5 @@ const props = defineProps({
 </script>
 
 <style lang="scss" scoped>
-@use "../../assets/styles/_merchandiseList.scss";
+@use "../../assets/styles/_merchandise-list.scss";
 </style>
