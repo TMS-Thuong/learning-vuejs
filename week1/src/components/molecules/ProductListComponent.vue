@@ -5,7 +5,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
 import ProductItem from "../atoms/ProductItemComponent.vue";
 
 const props = defineProps({

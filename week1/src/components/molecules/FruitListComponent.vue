@@ -5,7 +5,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
 import FruitItem from "../atoms/FruitItemComponent.vue";
 
 const props = defineProps({
