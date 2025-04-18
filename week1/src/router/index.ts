@@ -2,7 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 
 const routes = [
-  { path: '/', name: 'Home', component: HomeView }
+  { path: '/', name: 'Home', component: HomeView },
+  { path: '/exe-six-one', name: 'User', component: () => import('@/views/UserView.vue') },
+  { path: '/exe-six-two', name: 'Counter', component: () => import('@/views/CounterView.vue') },
+  { path: '/exe-six-three', name: 'Counter', component: () => import('@/views/GrandPrentView.vue') }
 ]
 
 const router = createRouter({

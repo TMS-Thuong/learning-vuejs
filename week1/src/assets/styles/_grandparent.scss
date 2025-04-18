@@ -1,0 +1,15 @@
+.grandparent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title{
+    font-size: 2rem;
+    color: #052908;
+  }
+  &__log{
+    font-size:16px;
+    color:darkgreen;
+    font-weight: 600;
+  }
+}
