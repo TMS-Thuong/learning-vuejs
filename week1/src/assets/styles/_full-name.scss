@@ -1,0 +1,25 @@
+.full-name {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+
+  &__group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  &__label {
+    margin-right: 1em;
+    font-weight: bold;
+    color: #070707;
+  }
+
+  &__input {
+    padding: 0.5em 1em;
+    border: 1px solid #1d1b1b;
+    border-radius: 4px;
+    width: 200px;
+  }
+}
