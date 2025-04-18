@@ -1,0 +1,26 @@
+.child-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  &__value {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+  }
+  &__btn {
+    background-color: #0e4217;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #318f3d;
+    }
+  }
+}
