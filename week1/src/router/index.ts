@@ -1,13 +1,17 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
+import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router';
+import HomeView from '@/views/HomeView.vue';
+import { ROUTE_NAMES } from './routerNames';
 
-const routes = [
-  { path: '/', name: 'Home', component: HomeView }
-]
+const routes: RouteRecordRaw[] = [
+  { path: '/', name: ROUTE_NAMES.HOME, component: HomeView },
+  { path: '/exe-five-one', name: ROUTE_NAMES.FULL_NAME, component: () => import('@/views/FullNameView.vue') },
+  { path: '/exe-five-two', name: ROUTE_NAMES.CHAR_COUNT, component: () => import('@/views/CharCountView.vue') },
+  { path: '/exe-five-three', name: ROUTE_NAMES.WATCH_COUNT, component: () => import('@/views/CountWatchView.vue') },
+];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
-})
+});
 
-export default router
+export default router;
